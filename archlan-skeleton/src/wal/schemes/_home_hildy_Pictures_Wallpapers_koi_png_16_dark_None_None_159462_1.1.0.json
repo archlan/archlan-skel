@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/hildy/Pictures/Wallpapers/koi.png",
+    "alpha": "100",
+    "special": {
+        "background": "#19100c",
+        "foreground": "#c5c3c2",
+        "cursor": "#c5c3c2"
+    },
+    "colors": {
+        "color0": "#19100c",
+        "color1": "#817c6c",
+        "color2": "#b58369",
+        "color3": "#938d7b",
+        "color4": "#8e907d",
+        "color5": "#a49c89",
+        "color6": "#b09f89",
+        "color7": "#8c8785",
+        "color8": "#524b48",
+        "color9": "#ADA690",
+        "color10": "#F2AF8C",
+        "color11": "#C4BCA5",
+        "color12": "#BEC1A7",
+        "color13": "#DBD1B7",
+        "color14": "#EBD5B7",
+        "color15": "#c5c3c2"
+    }
+}
