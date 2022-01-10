@@ -2,6 +2,7 @@
 # This configuration file is also used by ArchLan Linux @archlan
 typeset -A _kyoto
 _kyoto="$HOME/.zsh"
+eval "$(starship init zsh)"
 
 # Plugins and utilities sourcing
 source $_kyoto/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
