@@ -6,13 +6,13 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/08 19:41:27 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/10 15:35:00 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/01/20 18:19:39 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 pkgname=archlan-zsh
 pkgver=1.0
-pkgrel=2
+pkgrel=3
 pkgdesc="Base Configurations for ArchLan"
 url="https://github.com/archlan/archlan-skel"
 arch=('any')
@@ -20,6 +20,7 @@ license=('GPL3')
 makedepends=()
 depends=(zsh)
 conflicts=()
+groups=('archlan-de')
 provides=("${pkgname}")
 options=(!strip)
 
