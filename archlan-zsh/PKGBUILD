@@ -6,13 +6,13 @@
 #    By: Lanhild <archlan@protonmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/08 19:41:27 by Lanhild           #+#    #+#              #
-#    Updated: 2022/01/20 18:19:39 by Lanhild          ###   ########.fr        #
+#    Updated: 2022/01/21 16:33:34 by Lanhild          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 pkgname=archlan-zsh
 pkgver=1.0
-pkgrel=3
+pkgrel=4
 pkgdesc="Base Configurations for ArchLan"
 url="https://github.com/archlan/archlan-skel"
 arch=('any')
@@ -29,13 +29,13 @@ prepare() {
 }
 
 package() {
-	local _skeldir=$HOME
+	local _configdir=${pkgdir}/etc/skel/.config
 
-	mkdir -p "$_skeldir"
+	mkdir -p "$_configdir"
 
 	# Copy files
 
-	cp -r ${srcdir}/.zsh				"$_skeldir"
-	install -Dm 644 .zshrc				"$_skeldir"/.zshrc
-	install -Dm 644 .zshenv				"$_skeldir"/.zshenv
+	cp -r ${srcdir}/.zsh				"$_configdir"
+	install -Dm 644 .zshrc				"$_configdir"/.zshrc
+	install -Dm 644 .zshenv				"$_configdir"/.zshenv
 }
